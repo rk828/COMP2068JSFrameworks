@@ -40,7 +40,7 @@ prompt.get(['userSelection'], function (err, result) {
     // Validating user's selection
     if (["ROCK", "PAPER", "SCISSORS"].includes(userSelection)) {
         const computerSelection = getComputerSelection();
-        console.log("WHAT'S YOUR CHOICE BUDDY?:", userSelection);
+        console.log("WHAT'S YOUR CHOICE BUDDY??:", userSelection);
         console.log("Computer Selection:", computerSelection);
         console.log("Outcome:", determineWinner(userSelection, computerSelection));
     } else {
